@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Allow dynamic imports of these packages
+  serverExternalPackages: ["mammoth", "pdfjs-dist"],
 };
 
 export default nextConfig;
