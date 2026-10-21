@@ -60,6 +60,17 @@ npm publish        # 包名 lovemarkdown-mcp 已确认未被占用(2026-10-20 �
   MCP"(可选,形成双向链接,GEO 也有用)。
 - 发布后在 Google Search Console 提交 npm 页面和收录页 URL,加速索引。
 
+## 待手动提交
+
+- [AgentiC Skills](https://agenticskills.io/submit?type=mcp)(139 server 小站,免费审核制,自动化被前端拦截,手动填):
+  - MCP SERVER NAME: `lovemarkdown-mcp`
+  - REPOSITORY OR MCP URL: `https://github.com/coolnico/markdown`
+  - CATEGORY: `Productivity & PM`
+  - DESCRIPTION: `MCP server for AI clients (Claude Desktop, Cursor, ...): Markdown to styled Word .docx, docx to Markdown with native Word equations (OMML) restored as LaTeX, and Markdown to compilable LaTeX. By LoveMarkdown (https://lovemarkdown.com).`
+  - TAGS: `markdown, docx, word, latex`
+  - Your name: `LoveMarkdown` / Email: `contact@lovemarkdown.com`
+- Cursor Directory:cursor.directory/plugins/new,GitHub 登录后填:名称 `lovemarkdown-mcp`、网站 `https://lovemarkdown.com`、仓库 `https://github.com/coolnico/markdown`
+
 ## 踩坑记录(2026-10-21 首次发布实录)
 
 - npm 上叫 `mcp-publisher` 的是个无关的第三方包,官方工具是
