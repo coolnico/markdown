@@ -69,7 +69,13 @@ npm publish        # 包名 lovemarkdown-mcp 已确认未被占用(2026-10-20 �
   - DESCRIPTION: `MCP server for AI clients (Claude Desktop, Cursor, ...): Markdown to styled Word .docx, docx to Markdown with native Word equations (OMML) restored as LaTeX, and Markdown to compilable LaTeX. By LoveMarkdown (https://lovemarkdown.com).`
   - TAGS: `markdown, docx, word, latex`
   - Your name: `LoveMarkdown` / Email: `contact@lovemarkdown.com`
-- Cursor Directory:cursor.directory/plugins/new,GitHub 登录后填:名称 `lovemarkdown-mcp`、网站 `https://lovemarkdown.com`、仓库 `https://github.com/coolnico/markdown`
+- Cursor Directory:cursor.directory/plugins/new(GitHub 登录后,选 Manual 标签,Type 选 MCP Server)。2026-10-21 自动化提交实测:表单填写+点击发布后跳转 404,未能确认成功,需手动重做。注意:切换 Type 会重置组件字段,先选 Type 再填。填写值:
+  - 插件 Name: `lovemarkdown-mcp` / Description: `MCP server for AI clients: Markdown to styled Word .docx, docx to Markdown with native Word equations (OMML) restored as LaTeX, and Markdown to compilable LaTeX. Free web converters at lovemarkdown.com`
+  - Repository URL: `https://github.com/coolnico/markdown` / Homepage: `https://lovemarkdown.com` / Keywords: `markdown, docx, word, latex, mcp`
+  - 组件 Name: `lovemarkdown-mcp` / 组件 Description: 同上 / Content:
+    ```json
+    {"mcpServers":{"lovemarkdown-mcp":{"command":"npx","args":["-y","lovemarkdown-mcp"]}}}
+    ```
 
 ## 踩坑记录(2026-10-21 首次发布实录)
 
