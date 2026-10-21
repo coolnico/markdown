@@ -40,7 +40,7 @@ npm publish        # 包名 lovemarkdown-mcp 已确认未被占用(2026-10-20 �
 
 | 目录 | 状态 | 说明 |
 |---|---|---|
-| 官方 Registry | ✅ 已发布 | 收录详情页:registry.modelcontextprotocol.io/servers/io.github.coolnico/lovemarkdown-mcp |
+| 官方 Registry | ✅ 已发布 | 纯 API 服务、无网页;收录验证:registry.modelcontextprotocol.io/v0/servers/io.github.coolnico%2Flovemarkdown-mcp/versions |
 | [Glama](https://glama.ai/mcp/servers) | ✅ 自动同步 | 从官方 Registry 抓取(10.8万 server 均如此);可用 GitHub 登录认领(Claim) |
 | [mcp.so](https://mcp.so/submit?type=server) | 💰 $39 付费 | 一次性发布费:即时上线 + Verified 徽章 + 优先展示 + **dofollow 链接**(实测表单确认);免费收录与否取决于其爬虫是否抓取官方 Registry |
 | [PulseMCP](https://www.pulsemcp.com) | ⏸️ 暂停收录(2026-09 公告) | 恢复后自动从官方 Registry 抓取 |
