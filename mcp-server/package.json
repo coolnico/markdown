@@ -1,0 +1,51 @@
+{
+  "name": "lovemarkdown-mcp",
+  "version": "1.0.2",
+  "mcpName": "io.github.coolnico/lovemarkdown-mcp",
+  "description": "MCP server for LoveMarkdown — Markdown ⇄ Word (.docx) and Markdown → LaTeX. Native Word equations (OMML) are restored as LaTeX math. Companion to https://lovemarkdown.com",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "lovemarkdown-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "server.json"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "markdown",
+    "docx",
+    "word",
+    "latex",
+    "omml",
+    "converter",
+    "lovemarkdown"
+  ],
+  "license": "MIT",
+  "homepage": "https://lovemarkdown.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolnico/markdown.git",
+    "directory": "mcp-server"
+  },
+  "bugs": {
+    "url": "https://github.com/coolnico/markdown/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "docx": "^9.7.1",
+    "fflate": "^0.8.3",
+    "jsdom": "^29.1.1",
+    "mammoth": "^1.12.1",
+    "markdown-it": "^15.0.1",
+    "turndown": "^7.2.4",
+    "zod": "^3.25.0"
+  }
+}

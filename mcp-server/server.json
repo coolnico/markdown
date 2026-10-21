@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.coolnico/lovemarkdown-mcp",
+  "description": "Markdown ⇄ Word (.docx) and Markdown → LaTeX. Native Word equations (OMML) restored as LaTeX math.",
+  "title": "LoveMarkdown",
+  "websiteUrl": "https://lovemarkdown.com",
+  "repository": {
+    "url": "https://github.com/coolnico/markdown",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "lovemarkdown-mcp",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
