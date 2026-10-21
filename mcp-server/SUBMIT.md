@@ -36,15 +36,16 @@ npm publish        # 包名 lovemarkdown-mcp 已确认未被占用(2026-10-20 �
   `- [lovemarkdown-mcp](https://github.com/coolnico/lovemarkdown) — Markdown ⇄ Word (.docx) and Markdown → LaTeX; Word equations (OMML) → LaTeX`
 - PR 本身 + 合并后的 README 都是反链来源。
 
-## 3. 第三方目录(按流量优先级)
+## 3. 第三方目录(2026-10 实测更新)
 
-| 目录 | 方式 | 反链 |
+| 目录 | 状态 | 说明 |
 |---|---|---|
-| [Smithery](https://smithery.ai) | 提交 GitHub 仓库,自动扫描 mcp-server/ | 收录页 dofollow |
-| [PulseMCP](https://www.pulsemcp.com) | 表单提交 server | 收录页 + 周报 |
-| [mcp.so](https://mcp.so) | 提交 npm 包名,自动抓取 | 收录页 |
-| [Glama](https://glama.ai/mcp/servers) | GitHub 登录后添加 | 收录页 |
-| [Cursor Directory](https://cursor.directory/mcp) | 表单 | 收录页 |
+| 官方 Registry | ✅ 已发布 | 收录详情页:registry.modelcontextprotocol.io/servers/io.github.coolnico/lovemarkdown-mcp |
+| [Glama](https://glama.ai/mcp/servers) | ✅ 自动同步 | 从官方 Registry 抓取(10.8万 server 均如此);可用 GitHub 登录认领(Claim) |
+| [mcp.so](https://mcp.so/submit?type=server) | ⏳ 表单提交 | 填仓库地址 + 项目名,免登录,点 "submit a ticket" |
+| [PulseMCP](https://www.pulsemcp.com) | ⏸️ 暂停收录(2026-09 公告) | 恢复后自动从官方 Registry 抓取 |
+| [Smithery](https://smithery.ai) | ❌ 不适用 | 新模型只收远程 HTTP 托管 server,npm/stdio 包不再收录 |
+| Cursor Directory | 可选 | 表单提交 |
 
 提交时统一使用:
 - 名称:`lovemarkdown-mcp`
